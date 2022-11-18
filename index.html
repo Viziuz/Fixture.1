@@ -2,9 +2,215 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="estilo-proyecto-parte1.css">
     <script src="https://kit.fontawesome.com/9a94b9d7f7.js" crossorigin="anonymous"></script>
     <script src="./prueba-con-javascript.js"></script>
+        <style>
+        * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+
+body {
+    background-image: url(FIFA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -100px;
+    background-position-x: center;
+}
+
+
+
+/** -----------------Estilos Navegador---------------**/
+
+.titulo {
+    text-align: left;
+    font-size: 2.5em;
+    color: black;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px;
+    width: 135px;
+    text-align: center;
+    color: white;
+    background-color: rgb(143, 25, 74);
+    border: 2px solid #333;
+}
+
+.menu ul li:hover {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px;
+    width: 135px;
+    text-align: center;
+    color: white;
+    background-color: rgb(180, 20, 80);
+    border: 2px solid #333;
+}
+
+.menu ul li a {
+    color: white;
+}
+
+.sesion {
+    position: absolute;
+    right: 10px;
+}
+
+.container_responsive {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .container_responsive {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+i {
+    display: block;
+}
+
+/** -----------------Estilos Cuerpo---------------**/
+
+h2 {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    max-height: 700px;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width: 400px) {
+    .container {
+        max-height: 2000px;
+    }
+}
+
+.item {
+    background-color: rgba(50, 50, 50, 0.3);
+    color: azure;
+    margin: 10px;
+    border: 3px groove rgb(50, 50, 50);
+}
+
+.container table tr {
+    background-color: rgba(50, 50, 50, 0.3);
+    color: azure;
+    border: 2px solid #555;
+}
+
+.columna {
+    height: 30px;
+    background-color: rgba(50, 50, 50, 0.3);
+    color: azure;
+    border: 2px solid #555;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.column4 {
+    height: 15px;
+    background-color: rgba(50, 50, 50, 0.8);
+    color: azure;
+    border: 2px solid #555;
+    padding: 5px;
+    text-align: center;
+}
+
+.equipo {
+    background-color: rgba(50, 50, 50, 0.8);
+    color: azure;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.formato {
+    border: 1px solid black;
+    font-size: 0.80rem;
+}
+
+thead {
+    text-align: center;
+}
+
+.goles {
+    width: 30px;
+    height: 30px;
+    background-color: #555;
+    color: azure;
+    text-align: center;
+}
+
+.local,
+.visitante {
+    width: 120px;
+    text-align: center;
+}
+
+.FyH {
+    width: 120px;
+    text-align: center;
+}
+
+.cuerpo,
+.Tcabecera {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Tcabecera tr {
+    min-width: 350px;
+}
+
+.cuerpo tr {
+    min-width: 350px;
+}
+.grupo {
+    border: 2px solid grey;
+    text-align: center;
+}
+
+.seleccion {
+    width: 100px;
+}
+
+.posiciones {
+    border: 2px groove #333;
+    margin: 20px;
+}
+
+.general,
+.general input {
+    background-color: rgba(50, 50, 50, 0.3);
+    height: 20px;
+    width: 50px;
+}
+    </style>
 </head>
 
 <body>
