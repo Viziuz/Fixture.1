@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo-proyecto-parte1.css">
+    <script src="https://kit.fontawesome.com/9a94b9d7f7.js" crossorigin="anonymous"></script>
+    <script src="./prueba-con-javascript.js"></script>
+</head>
+
+<body>
+    <header>
+        <h2 class="titulo">Fixture Qatar 2022</h2>
+        <hr>
+    </header>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li><a href="proyecto-parte1.html">Fechas</a></li>
+                <li><a href="tabla-posiciones.html"><i class="fa-solid fa-table-rows"></i>Tabla de posiciones</a></sli>
+                <li><a href="">Llaves</a></li>
+                <li><a href="">Prode</a></li>
+                <li class="registro"><a href="iniciar-sesion.html"><i href="https://www.flaticon.es/iconos-gratis/iniciar-sesion"
+                        title="iniciar-sesion iconos">Iniciar-sesion</a>
+            </ul>
+        </div>
+        
+        <div class="container_responsive">
+            <ul>
+                <li class="responsive_li"><i class="fa-solid fa-calendar-days"></i><a href="proyecto-parte1.html">Fechas</a></li>
+                <li class="responsive_li"><i class="fa-solid fa-table"></i>Tabla de posiciones</a></sli>
+                <li class="responsive_li"><i class="fa-solid fa-diagram-subtask"></i><a href="">Llaves</a></li>
+                <li class="responsive_li"><i class="fa-solid fa-trophy"></i><a href="">Prode</a></li>
+                <li class="registro"><i class="fa-solid fa-right-to-bracket"></i>Iniciar-sesion</a>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h2>Fecha 1</h2>
+        <div class="container">
+            <div class="item0 item">
+                <table>
+                    <tr class="fila-resultado"">
+                        <td class=" columna equipo">Qatar</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Ecuador</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4"> Domingo 20/11 - 13:00 hs <br> Estadio Al Bayt</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button onclick="sumarPuntos()">cargar</button></td>
+                        <td colspan="2"><button onclick="">corregir</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item1 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Inglaterra</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">iran</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Lunes 21/11 - 10:00 hs <br>Estadio Khalifa International</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item2 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Senegal</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Países Bajos</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Lunes 21/11 - 13:00 hs <br>Estadio Al Thumama</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Estados Unidos</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Gales</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Lunes 21/11 - 16:00 hs <br>Estadio Ahmad Bin Ali</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Argentina</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Arabia Saudita</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Martes 22/11 - 07:00 hs <br>Estadio Lusail</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Dinamarca</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Tunez</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Martes 22/11 - 10:00 hs <br>Estadio Education City</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Mexico</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Polonia</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Martes 22/11 - 13:00 hs <br>Estadio Stadium 974</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Francia</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Australia</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Martes 22/11 - 16:00 hs <br>Estadio Al Janoub</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item0 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class=" columna equipo">Marruecos</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Croacia</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4"> Miercoles 23/11 - 07:00 hs <br> Estadio Al Bayt</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item1 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Alemania</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Japon</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Miercoles 23/11 - 10:00 hs <br>Estadio Khalifa International
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item2 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">España</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Costa Rica</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Miercoles 23/11 - 13:00 hs <br>Estadio Al Thumama</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Belgica</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Canada</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Miercoles 23/11 - 16:00 hs <br>Estadio Ahmad Bin Ali</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Suiza</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Camerun/td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Jueves 24/11 - 07:00 hs <br>Estadio Al Janoub</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Uruguay</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Corea del Sur</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Jueves 24/11 - 10:00 hs <br>Estadio Education City</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Portugal/td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Ghana</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Jueves 24/11 - 13:00 hs <br>Estadio Stadium 974</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Brasil</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Serbia</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Jueves 24/11 - 16:00 hs <br>Estadio Lusail</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <h2>Fecha 2</h2>
+        <div class="container">
+            <div class="item1 item">
+                <table>
+                    <tr class="fila-resultado"">
+                        <td class=" columna equipo">Qatar</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Ecuador</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4"> Domingo 20/11 - 13:00 hs <br> Estadio Al Bayt</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item1 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Inglaterra</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">iran</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Lunes 21/11 - 10:00 hs <br>Estadio Khalifa International</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item2 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Senegal</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Países Bajos</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Lunes 21/11 - 13:00 hs <br>Estadio Al Thumama</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Estados Unidos</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Gales</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Lunes 21/11 - 16:00 hs <br>Estadio Ahmad Bin Ali</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Argentina</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Arabia Saudita</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Martes 22/11 - 07:00 hs <br>Estadio Lusail</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Dinamarca</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Tunez</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Martes 22/11 - 10:00 hs <br>Estadio Education City</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Mexico</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Polonia</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Martes 22/11 - 13:00 hs <br>Estadio Stadium 974</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Francia</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Australia</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Martes 22/11 - 16:00 hs <br>Estadio Al Janoub</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item0 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class=" columna equipo">Marruecos</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Croacia</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4"> Miercoles 23/11 - 07:00 hs <br> Estadio Al Bayt</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item1 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Alemania</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Japon</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Miercoles 23/11 - 10:00 hs <br>Estadio Khalifa International
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item2 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">España/td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Costa Rica</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Miercoles 23/11 - 13:00 hs <br>Estadio Al Thumama</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Belgica</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Canada</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Miercoles 23/11 - 16:00 hs <br>Estadio Ahmad Bin Ali</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Suiza</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Camerun/td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Jueves 24/11 - 07:00 hs <br>Estadio Al Janoub</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Uruguay</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Corea del Sur</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Jueves 24/11 - 10:00 hs <br>Estadio Education City</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Portugal/td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Ghana</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Jueves 24/11 - 13:00 hs <br>Estadio Stadium 974</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Brasil</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Serbia</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Jueves 24/11 - 16:00 hs <br>Estadio Lusail</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <h2>Fecha 3</h2>
+        <div class="container">
+            <div class="item1 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class=" columna equipo">Paises Bajos</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Qatar</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4"> Martes 29/11 - 12:00 hs <br> Estadio Al Janoub</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item1 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Ecuador/td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Senegal</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4"> Martes 29/11 - 12:00 hs <br>Estadio Khalifa International</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item2 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Gales</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Inglaterra</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Martes 29/11 - 16:00 hs <br>Estadio Al Thumama</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Iran/td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">EE.UU.</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Martes 29/11 - 16:00 hs <br>Estadio Ahmad Bin Ali</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Tunez</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Francia</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Miercoles 30/11 - 12:00 hs <br>Estadio Lusail</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Australia</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Dinamarca</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Miercoles 30/11 - 12:00 hs <br>Estadio Education City</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Polonia</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Argentina</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Miercoles 30//11 - 16:00 hs <br>Estadio Stadium 974</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Arabia Saudita</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Mexico</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Miercoles 30//11 - 16:00 hs <br>Estadio Al Janoub</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item0 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class=" columna equipo">Croacia</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Belgica</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4"> Jueves 01/12 - 12:00 HS <br> Estadio Al Bayt</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item1 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Canada</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Marruecos</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4"> Jueves 01/12 - 12:00 HS <br>Estadio Khalifa International
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item2 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Japon</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">España/td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4"> Jueves 01/12 - 16:00 HS <br>Estadio Al Thumama</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Costa Rica</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Alemania</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4"> Jueves 01/12 - 16:00 HS <br>Estadio Ahmad Bin Ali</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Corea del Sur</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Portugal<td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Viernes 02/12 - 12:00 Hs<br>Estadio Al Janoub</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Ghana</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Uruguay</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Viernes 02/12 - 12:00 Hs<br>Estadio Education City</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Camerun/td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Brasil</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Viernes 02/12 - 16:00 Hs<br>Estadio Stadium 974</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item3 item">
+                <table>
+                    <tr class="fila-resultado">
+                        <td class="columna equipo">Serbia</td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna"><input type="number" name="" class="goles"></td>
+                        <td class="columna equipo">Suiza</td>
+                    </tr>
+                    <tr class="fila-fyh">
+                        <td colspan="4" class="column4">Viernes 02/12 - 16:00 Hs<br>Estadio Lusail</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </main>
+</body>
+
